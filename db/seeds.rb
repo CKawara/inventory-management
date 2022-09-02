@@ -233,10 +233,10 @@ user5 = User.create(
    password: "Lemon"
 )
 
-user6 = User.create{
+user6 = User.create(
    name: "john lenno",
    email: "johnlemo@einvent.com",
    role: "Employee",
    password: "lenoo"
-}
+)
 puts "Done Seeding..."
